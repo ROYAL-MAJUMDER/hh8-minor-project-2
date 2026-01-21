@@ -1,0 +1,31 @@
+1.1 Installing Node.js 
+curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
+sudo apt install -y nodejs
+
+
+Verifying:
+
+node -v
+npm -v
+
+
+1.2 Installing Node.js 
+curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
+sudo apt install -y nodejs
+
+
+Verifying:
+
+node -v
+npm -v
+
+
+1.3 Installing MongoDB
+sudo apt install -y mongodb
+sudo systemctl start mongodb
+sudo systemctl enable mongodb
+
+
+then Checking status:
+
+sudo systemctl status mongodb
