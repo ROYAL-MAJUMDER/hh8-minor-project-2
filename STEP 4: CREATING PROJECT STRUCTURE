@@ -1,0 +1,4 @@
+mkdir models routes
+touch server.js .env
+touch models/User.js
+touch routes/auth.js
