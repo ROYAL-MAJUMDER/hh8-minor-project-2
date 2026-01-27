@@ -1,0 +1,13 @@
+
+
+nano .env
+
+
+paste:
+PORT=3000
+MONGO_URI=mongodb://127.0.0.1:27017/passwordreset
+EMAIL_USER=XXX
+EMAIL_PASS=XXX
+
+
+NOTE: IN  EMAIL_USER & EMAIL_PASS I ADDED MY OWN MAIL & PASS
