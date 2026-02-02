@@ -1,0 +1,3 @@
+curl -X POST http://localhost:3000/auth/forgot-password \
+-H "Content-Type: application/json" \
+-d '{"email":"javalab00007@gmail.com"}'
