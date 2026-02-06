@@ -1,0 +1,4 @@
+
+mongosh
+use passwordreset
+db.users.find().pretty()
