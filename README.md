@@ -1,11 +1,18 @@
-Project Description:
-The Secure Password Reset project focuses on creating a safe account recovery process using one-time tokens. It generates cryptographically secure URL tokens for password reset requests and sends them via SendGrid email service. Tokens expire within 15–30 minutes, ensuring protection against unauthorized access while maintaining a simple, reliable, and user-friendly recovery workflow.
+Project Description 
 
-Tools Used:
-The project uses Node.js to build the backend and manage authentication processes. SendGrid is integrated for sending password reset emails securely. A database stores user data, hashed passwords, and reset tokens. Cryptographic libraries help generate secure hashes, while HTTPS ensures encrypted communication, strengthening overall system security and protecting sensitive information.
+This project implements a secure password reset system using Node.js and MongoDB. It allows users to recover accounts through time-limited reset tokens. The system ensures security by validating users, generating cryptographic tokens, expiring them automatically, and securely hashing new passwords before storing them in the database.
 
-How to Run the Project:
-First, install Node.js and required dependencies using npm. Configure environment variables such as database credentials and SendGrid API key. Start the server with the appropriate command (e.g., npm start). Users can request password resets through the application, receive a tokenized link via email, verify it, and securely create a new password.
 
-I Learned:
-Through this project, I learned how to design secure authentication workflows and implement one-time tokens for password recovery. I gained practical experience with Node.js, email integration, and cryptographic hashing. Additionally, I understood the importance of token expiration, data protection, and balancing security with user experience in real-world applications.
+ Tools Used 
+
+The project uses Node.js with Express for backend development, MongoDB for database storage, and Mongoose for object modeling. Bcrypt is used for password hashing, Crypto for secure token generation, Dotenv for environment variables, Nodemailer for email delivery, and Kali Linux as the development environment.
+
+
+ How to Run the Project 
+
+Start MongoDB service and verify database connection. Navigate to the project directory and install dependencies using npm install. Configure environment variables in the .env file. Run the server using node server.js. Use curl or Postman to test forgot-password and reset-password API endpoints.
+
+
+ What I Learned 
+
+I learned how to design a secure password recovery flow, implement token-based authentication, and handle sensitive user data securely. I gained practical experience with Node.js, MongoDB, API testing using curl, debugging backend errors, and understanding real-world security practices in authentication systems.
